@@ -26,6 +26,7 @@ This plugin is stil going through the Moodle core plugin review process, so some
 Crafted by Catalyst IT
 ----------------------
 This plugin was developed by [Catalyst IT Ltd](https://www.catalyst.net.nz) for the [University of Waikato](https://www.waikato.ac.nz) and they have kindly agreed to release it for all to use.
+
 ![Catalyst IT](/pix/catalyst-logo.png?raw=true)
 ![Waikato University](/pix/waikato-logo.png?raw=true)
 
