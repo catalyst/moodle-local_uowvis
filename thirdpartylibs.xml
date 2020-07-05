@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<libraries>
+    <library>
+        <location>amd/src/d3.js</location>
+        <name>D3JS core</name>
+        <version>5.15.0</version>
+        <license>BSD-3-Clause</license>
+    </library>
+    <library>
+        <location>amd/src/d3-simple-slider.js</location>
+        <name>D3JS Simple Slider</name>
+        <version>1.6.5</version>
+        <license>BSD-3-Clause</license>
+    </library>
+</libraries>

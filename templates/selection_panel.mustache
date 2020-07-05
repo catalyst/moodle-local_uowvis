@@ -1,0 +1,48 @@
+{{!                                                                                                                                                                                                         
+    This file is part the Local uowvis plugin for Moodle
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template uowvis/selectionpanel
+
+    Template for adding/removing courses to a selection of courses
+
+    Classes required for JS:
+    * none
+
+    Data attributes required for JS:
+    * none
+
+    Context variables required for this template:
+    all_courses - a list of {courseid, coursename, selected} objects
+
+    Example context (json):
+    { "all_courses": [{"courseid": 35, "coursename": "Course 35", "selected": true }] }
+}}
+<h2>{{# str }} selectbox, local_uowvis {{/ str}}</h2>
+
+<div id="selection-panel{{{divid}}}">
+<p> 
+    <label for="uowvis-course-select-{{{divid}}}">{{# str }} selected_explainer, local_uowvis {{/ str }}:</label>
+
+<select multiple="true" name="uowvis-course-select" id="uowvis-course-select-{{{divid}}}">
+    {{#all_courses}}
+        <option {{#selected}}selected="true"{{/selected}} value="{{courseid}}">
+            {{coursename}}
+        </option>
+    {{/all_courses}}
+</select>
+</p>
+</div>
