@@ -44,8 +44,8 @@ before_install:
 
 install:
   - moodle-plugin-ci install -vvv
-  - cat .eslintignore
-  - cat .stylelintignore
+  - cat /home/travis/build/moodle/.eslintignore
+  - cat /home/travis/build/moodle/.stylelintignore
 
 script:
   - moodle-plugin-ci validate
