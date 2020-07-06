@@ -19,7 +19,7 @@ The plugin currently only supports courses with the following grade weighting ty
 
 
 ## Supported versions
-This plugin has been tested against moodle 3.7 and 3.8 only currently, but will be tested against 3.7 and up very soon
+This plugin has been tested against moodle 3.8 only currently, but should work in 3.8 and upwards
 
 This plugin is stil going through the Moodle core plugin review process, so some changes may still be coming.
 
